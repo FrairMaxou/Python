@@ -1,0 +1,9 @@
+# L'exercice demandait de faire nombre = 7
+# Challenge perso : faire un outil permettant de faire n'importe quelle table de multiplication
+
+print("Quelle table de multiplication souhaitez-vous effectuer ? ")
+nombre = int(input())
+
+i = range(11)
+for i in range(11):
+    print(f"{i} x {nombre} = {i * nombre}")
